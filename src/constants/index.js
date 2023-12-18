@@ -1,5 +1,27 @@
 import { univ, cb } from "../assets/images";
-import { css, express, git, github, html, javascript, linkedin, mongodb, nodejs, jwt, react, redux, tailwindcss, mui, chakra, chitchat, cdesk, atm, spinv, pthfdr, wthr } from "../assets/icons";
+import {
+    css,
+    express,
+    git,
+    github,
+    html,
+    javascript,
+    linkedin,
+    mongodb,
+    nodejs,
+    jwt,
+    react,
+    redux,
+    tailwindcss,
+    mui,
+    chakra,
+    chitchat,
+    cdesk,
+    atm,
+    spinv,
+    pthfdr,
+    wthr,
+} from "../assets/icons";
 
 export const skills = [
     {
@@ -121,41 +143,45 @@ export const projects = [
         name: "MERN Chat App",
         description:
             "Developed a feature-rich MERN stack chat application integrating Socket.io for real-time communication, JWT for secure authentication, and leveraging Chakra UI for an intuitive and responsive user interface.",
-        link: "http://letschitchat.onrender.com",
+        link: "https://letschitchat.onrender.com",
     },
     {
         iconUrl: cdesk,
         theme: "btn-back-green",
         name: "Desktop File Organizer",
-        description: "A python program that automatically organizes your desktop files based on the file type and provided directory.",
+        description:
+            "A python program that automatically organizes your desktop files based on the file type and provided directory.",
         link: "https://github.com/TosmimForidMehtab/cleanDesk",
+    },
+    {
+        iconUrl: wthr,
+        theme: "btn-back-yellow",
+        name: "Taskmaid",
+        description: "A react based app that helps you manage your tasks.",
+        link: "https://taskmaid.netlify.app",
     },
     {
         iconUrl: atm,
         theme: "btn-back-blue",
         name: "Node js email automator",
-        description: "Created a nodejs app that automatically replies to unread emails in your inbox.",
+        description:
+            "Created a nodejs app that automatically replies to unread emails in your inbox.",
         link: "https://github.com/TosmimForidMehtab/Automail",
     },
     {
         iconUrl: spinv,
         theme: "btn-back-pink",
         name: "Space Invaders Game",
-        description: "Created a Space Invaders game using Python and Pygame with a graphical user interface and audio.",
+        description:
+            "Created a Space Invaders game using Python and Pygame with a graphical user interface and audio.",
         link: "https://github.com/TosmimForidMehtab/SpaceInvaders",
     },
     {
         iconUrl: pthfdr,
         theme: "btn-back-black",
         name: "Path Finder",
-        description: "A GUI based implementation of path-finding algorithm that finds the shortest path between two points.",
+        description:
+            "A GUI based implementation of path-finding algorithm that finds the shortest path between two points.",
         link: "https://github.com/TosmimForidMehtab/PathFinder",
-    },
-    {
-        iconUrl: wthr,
-        theme: "btn-back-yellow",
-        name: "Ineractive Weather Program",
-        description: "An interactive weather program that allows users to view current weather conditions and forecast using voice.",
-        link: "https://github.com/TosmimForidMehtab/WeatherAI",
     },
 ];
